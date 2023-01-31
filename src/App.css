@@ -1,0 +1,71 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: black;
+}
+
+.contenedor__card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+}
+.card__personaje{
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  height: 210px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(144, 196, 144);
+}
+.card__img{
+  width: 250px;
+  height: 200px;
+}
+.card__img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.titulo{
+  background-color: greenyellow;
+}
+h1{
+  margin-top: 0;
+}
+h2{
+  background-color: greenyellow;
+  padding: 15px;
+  border-radius: 250px;
+}
+h3{
+  background-color: rgb(58, 180, 88);
+  padding: 5px;
+  border-radius: 250px;
+}
+
+.botonera{
+  background-color: rgb(187, 245, 179);
+  padding: 20px;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.botonera button{
+  background-color: green;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px 5px black;
+  height: 40px;
+  color: white;
+}
+.botonera p{
+  font-size: 2rem;
+}
